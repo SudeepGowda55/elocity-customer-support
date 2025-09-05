@@ -18,6 +18,7 @@ export function Conversation() {
 
       await conversation.startSession({
         agentId: process.env.NEXT_PUBLIC_AGENT_ID, // Replace with your agent ID
+        userId: 'user_sudeep', // Replace with the user ID
         dynamicVariables: {
           secret__access_token: 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6IlBIX01PViIsInN1YiI6MjYzNiwiY3VzdG9tZXJHcm91cElkcyI6W10sImlhdCI6MTc1NTAwMzI3MCwiZXhwIjoxNzU1MDE3NjcwLCJpc3MiOiJjcG1zIiwianRpIjoiQWNjZXNzVG9rZW4ifQ.Or4PxMgxQtTA8MQRsWInVKP3l8Ylw5_KaExGOJGJ75gs2HGbph83RvE_mJnNGjz_IjdI6bR3xLHVsFDbpr10xUrOwRdLxv92ItY3KliiWrEza0Hj8xEBePA63MZOA18jYJzOitXqymhzCDbX49iINHKkwkAL0YXo0aXbvB9_PfomNkHJocoI2IsRhN_zcVRAU-gss4V0ancsKWGHlKfdHbvA6iLkWiag-zSvOBx28FedAQ2HLZd_xGixC5G-x3TXc6ZCTkcBCN6XB61RdlKY-MczU1Op6-UEu_b8D7zGrQtvissNRxAppSCHM-nCoEM7SjiPGGCDnbEnVMa5v9mWRH1P_xA7jQZMzHL1Bcz2sfdqkAY8LNxNgK9Xe6Df5CsxR0emLvrQg_ecyYU0MpDnXEYHSb_nb0kWh7sJp3itthNcwPZ81KhGeWyMKbc7qbKWlRrisH97GUoKvuk5i-_X9M8CMRmLtDt8_bFtYy_W8IdwUPYzhhNVPrjsdAtANQA2BMn_KAxlIvUYh9GvpiaRj_bANAEOd2CrwjHJuvcXQG8j7MtprETzwnbxb6us2mBuriuoS1WYFR8MH3auvNE0TPEgZIlsTwj7TMQIflBv8ymckUVAy79H6RySfE9iDlGF8Govk_NfeYGlPhNITXEueIaeG4jy8vowB5Swnxg0A54',
           customer_name: "Sudeep",
